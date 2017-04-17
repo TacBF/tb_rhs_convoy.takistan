@@ -1,0 +1,84 @@
+// RES - CIA
+// Author: Cole
+
+gear[] =
+{
+// WEAPONS
+
+	// Rifles
+	{"rhs_weap_akm", {__ICE_gear_basicRifleRoles}},
+	{"rhs_weap_m16a4_carryhandle", {__ICE_gear_basicRifleRoles}},
+	{"rhs_weap_akm_gp25", {__ICE_gear_Grenadier}},
+	{"rhs_weap_m16a4_carryhandle_M203", {__ICE_gear_Grenadier}},
+	{"srifle_DMR_06_olive_F", {__ICE_gear_heavyRifleRoles, __ICE_gear_Marksman}},
+	{"rhs_weap_M590_8RD", {__ICE_gear_midRangeScopeRoles, __ICE_gear_Diver}},
+	{"rhs_weap_mk18_grip2_KAC", {__ICE_gear_Diver}},
+		
+	// Marksman/Sniper Rifles
+	{"rhs_weap_svds", {__ICE_gear_Marksman}},
+	{"rhs_weap_svdp_wd_npz", {__ICE_gear_Sniper}},
+		
+	// Machine Guns
+	{"rhs_weap_pkm", {__ICE_gear_MG}},
+		
+	// Pistols
+	{"rhs_weap_makarov_pmm", {__ICE_gear_allRoles}},
+	{"rhsusf_weap_glock17g4", {__ICE_gear_Diver}},
+		
+	// AT Launchers
+	{"CUP_launch_RPG18", {__ICE_gear_LightAT}},
+	{"rhs_weap_rpg7", {__ICE_gear_HeavyAT}},
+	{"CUP_launch_M136", {__ICE_gear_Diver}},
+		
+	// AA Launchers
+	{"CUP_launch_FIM92Stinger", {__ICE_gear_AA}}, 
+	
+	
+// ATTACHMENTS
+		
+	// Rifle Scopes
+	{"rhsusf_acc_ACOG_USMC", {__ICE_gear_Diver}},
+	
+	// Sniper/Marksman Scopes
+	{"optic_LRPS", {__ICE_gear_Sniper}},
+	{"rhs_acc_pso1m2", {__ICE_gear_Marksman}},
+	
+	// AT Scope
+	//{"rhs_acc_pgo7v", {__ICE_gear_LightAT}},
+	
+	// Barrel Attachments 
+	{"rhsusf_acc_SF3P556", {__ICE_gear_Diver}},
+
+// EQUIPMENT
+
+	// Grenades
+	{"rhs_mag_rgd5", {__ICE_gear_allRoles}},	
+	{"SmokeShell", {__ICE_gear_allRoles}},
+	{"SmokeShellYellow", {__ICE_gear_allRoles}, 1},
+	{"Chemlight_yellow", {__ICE_gear_allRoles}, 1},
+		
+	// Explosives
+	{"DemoCharge_Remote_Mag", {__ICE_gear_CombatEngineer, __ICE_gear_Diver}},
+		
+	// Backpacks
+	{"B_FieldPack_oli", {__ICE_gear_allRoles}, 1},
+	{"B_FieldPack_cbr", {__ICE_gear_allRoles}, 1},
+	{"B_FieldPack_khk", {__ICE_gear_allRoles}},
+	{"B_Carryall_khk", {__ICE_gear_HeavyAT, __ICE_gear_AA}, 1},
+	{"B_Parachute", {__ICE_gear_allRoles}, 1},
+	{"TB_Hideout_Pack_East", {__ICE_gear_Inf}},
+	{"B_AssaultPack_Kerry", {__ICE_Gear_Diver}},
+	{"tf_rt1523g_bwmod", {__ICE_gear_SL, __ICE_gear_Sniper, __ICE_gear_Crewman, __ICE_gear_Pilot, __ICE_gear_Diver}},
+	
+	// Flares
+	{"rhs_weap_rsp30_green", {__ICE_gear_allRoles}},
+		
+	// Binoculars
+	{"Binocular", {__ICE_gear_allRoles}, 1},
+	{"rhs_pdu4", {__ICE_gear_Marksman, __ICE_gear_Crewman}, 1},
+	{"NVGoggles", {__ICE_gear_allRoles}, 1},
+		
+	// Other
+	{"ToolKit", {__ICE_gear_CombatEngineer}},
+	{"MineDetector", {__ICE_gear_CombatEngineer, __ICE_gear_Rifleman}},
+};
